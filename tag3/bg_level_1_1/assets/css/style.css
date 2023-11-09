@@ -1,0 +1,11 @@
+section {
+    background-color: linen;
+}
+
+section h1 {
+    background-color: lightblue;
+}
+
+article {
+    background: url(../img/600x600.jpg)
+}

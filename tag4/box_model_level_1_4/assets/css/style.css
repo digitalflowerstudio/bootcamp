@@ -1,0 +1,26 @@
+main section div {
+    background-color: #9BC1BC;
+    width: 150px;
+    height: 150px;
+    margin: 50px 50px;
+    border: 10px solid green;
+    outline: 10px solid red;
+    box-shadow: inset 0 0 0 5px blue;
+}
+
+main section ul li:nth-of-type(1)::before {
+    content: '🤓';
+}
+
+main section ul li:nth-of-type(2)::before {
+    content: '🧠';
+}
+
+main section ul li:nth-of-type(3)::before {
+    content: '🧑‍🍳';
+}
+
+main section ul li:nth-of-type(4)::before {
+    content: '👨‍👩‍👦‍👦';
+
+}

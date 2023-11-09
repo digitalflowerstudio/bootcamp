@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CSS Basics</title>
+    <style>
+        section {
+            width: 700px;
+            border: 3px solid red;
+        }
+
+        div {
+            background-color: crimson;
+            display: block;
+        }
+
+        p {
+            background-color: coral;
+            font-weight: 800;
+
+        }
+
+        span {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- block-elemente sind div,p,h1-h6, listen ul, ol, li, section, article, nav, main, footer, aside... blockelement nimmt horizontalen platz ein soviel es zur verfügung hat -->
+    <section>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore minus culpa veritatis, sint blanditiis
+            laudantium <span>odit ipsa reprehenderit</span> officia eaque natus porro eius ab voluptatem optio!
+            Officiis, hic <span>Lorem, ipsum.</span>
+            perspiciatis.</div>
+
+        <p>Lorem ipsum dolor sit amet.</p>
+
+        <!-- inline elemente sind ein a tag, span, img ... -->
+        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quos rem delectus odit in velit?</span>
+    </section>
+
+    <section>
+        <h2 style="color: red; font-size: large;">Nicht semantische elemente - von inline style wird abgeraten</h2>
+        <ol>
+            <li>DIV -> hauptsächlich für die gruppierung von elementen und erstellung von elementen</li>
+            <li>span -> wird of verwendet um einen abschnitt von text innerhalb eines textabschnittes zu markieren,
+                hervorzuheben oder zu verändern </li>
+            <li>BR -> erzwungener zeilenumbruch, nicht sehr elegant, versuchen zu vermeiden</li>
+            <li>HR -> horiz. trennlinie, wird nicht oft verwendet</li>
+        </ol>
+        <h2>TEXT SHADOW</h2>
+    </section>
+
+    <article>
+        <p>Erster Abschnitte</p>
+        <p>Zweiter Abschnitte</p>
+        <p>Dritter Abschnitte</p>
+        <p>Vierter Abschnitte</p>
+        <p>Fünfter Abschnitte</p>
+        <p>Sechster Abschnitte</p>
+        <p>Siebter Abschnitte</p>
+    </article>
+
+    <article>
+        <div>
+        </div>
+    </article>
+
+
+</body>
+
+</html>

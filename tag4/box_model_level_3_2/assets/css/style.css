@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Fredericka';
+    src: url('..//fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    padding: 0;
+    /* innenabstand */
+    margin: 0;
+    /* außenabstand */
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/background-img.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header logo h3 {
+    font-family: 'Fredericka';
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    margin: 20px 50px;
+}
+
+header section h1 {
+    font-family: 'Fredericka';
+    font-size: 40px;
+    color: white;
+    display: inline block;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    margin-top: 170px;
+}
+
+header section p {
+    font-family: 'OpenSans';
+    color: white;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+    word-spacing: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+header section a {
+    font-family: 'OpenSans';
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid white;
+}
+
+header section {
+    display: inline block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav {
+    text-align: right;
+    line-height: 2.0;
+    margin-right: 70px;
+    padding-top: 100px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    height: 500px
+}
+
+main section h2 {
+    font-family: 'Fredericka';
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section p {
+    font-family: 'OpenSans';
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+main section a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    line-height: 3;
+    padding: 15px;
+    border: 3px solid black;
+    width: max-content
+}
+
+footer {
+    height: 140px;
+    background-color: rgb(56, 51, 51);
+}
+
+footer section p {
+    font-family: 'OpenSans';
+    color: white;
+    padding: 20px 0px 0px 20px;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+footer section a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer nav li {
+    display: inline;
+    text-align: center;
+}
+
+footer nav {
+    text-align: center;
+    word-spacing: 10px;
+    margin-top: 50px;
+}

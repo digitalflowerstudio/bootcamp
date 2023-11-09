@@ -1,0 +1,7 @@
+section p {
+    background-color: aqua;
+    width: 200px;
+    border: 25px solid black;
+    padding: 25px 25px;
+    margin: 25px auto;
+}

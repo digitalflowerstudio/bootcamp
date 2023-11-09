@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Black.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* globale stile für das ganze dokument */
+
+html {
+    font-family: 'Roboto';
+}
+
+article p:nth-of-type(2) {
+    color: rgb(54, 54, 214);
+    background-color: aqua;
+}
+
+article p:nth-of-type(odd) {
+    color: rgb(54, 54, 214);
+    background-color: aqua;
+}
+
+article p:nth-of-type(odd):hover {
+    color: rgb(54, 54, 214);
+    background-color: rgb(247, 0, 255);
+}
+
+article p:nth-of-type(even):active {
+    color: rgb(54, 54, 214);
+    background-color: rgb(255, 200, 0);
+}
+
+li:nth-of-type(4) {
+    color: red;
+    background-color: red;
+    font-weight: 400;
+}
+
+article p:nth-of-type(even) {
+    color: rgb(54, 54, 214);
+    background-color: rgb(59, 156, 42);
+}
+
+li:first-of-type {
+    color: blue;
+}
+
+li:last-of-type {
+    color: pink;
+}
+
+section:nth-child(1) {
+    color: aquamarine;
+}
+
+h2:nth-of-type(2) {
+    color: violet;
+    font-size: 40px;
+    text-shadow: 5px 5px 8px black;
+    text-decoration: underline;
+}
+
+article:nth-of-type(2) div {
+    width: 100%;
+    min-height: 200px;
+    /* background-image: url('../img/anastase-maragos-jTXuR6zAA1M-unsplash.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+    background: url('../img/anastase-maragos-jTXuR6zAA1M-unsplash.jpg') center/contain no-repeat;
+}

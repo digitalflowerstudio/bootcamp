@@ -1,0 +1,60 @@
+div {
+    width: 400px;
+    height: 120px;
+    text-align: center;
+    margin: 100px;
+}
+
+/* div p {
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+div h4 {
+    border: 2px solid black;
+    margin-left: 100px;
+} */
+
+div p::first-letter {
+    font-size: 24px;
+}
+
+div::before {
+    content: "";
+    background: url("../img/157248.png") center/cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 500px;
+    top: 180px;
+}
+
+div::after {
+    content: "";
+    background: url("../img/157247.png") center/cover;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 40px;
+    top: 80px;
+
+}
+
+div p span:nth-of-type(1) {
+    border-bottom: 1px solid black;
+}
+
+div p span:nth-of-type(2) {
+    border-bottom: 1px solid black;
+}
+
+div p span:nth-of-type(1):hover {
+    border: 2px solid black;
+}
+
+div p span:nth-of-type(2):hover {
+    color: white;
+    background-color: black;
+}

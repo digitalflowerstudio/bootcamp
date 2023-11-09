@@ -1,0 +1,15 @@
+div {
+    border: 2px solid yellow;
+}
+
+div p::before {
+    content: "Info:";
+    margin-right: 3px;
+    font-weight: 800;
+    background-color: yellow;
+}
+
+div p::selection {
+    color: red;
+    background-color: blue;
+}

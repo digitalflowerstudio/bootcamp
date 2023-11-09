@@ -1,0 +1,26 @@
+nav {
+    background-color: lightgrey;
+    color: lightgray;
+}
+
+main section a {
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: red
+}
+
+html {
+    background-color: darkgray;
+}
+
+span {
+    color: blue
+}
+
+img {
+    display: block;
+}

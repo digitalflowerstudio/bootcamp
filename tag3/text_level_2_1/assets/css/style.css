@@ -1,0 +1,36 @@
+h1 {
+    font-size: 48px;
+    background-color: darkgray;
+    text-shadow: 5px 5px 2px black;
+    font-family: Tahoma;
+    text-align: center;
+    color: white;
+}
+
+body p:nth-of-type(1) {
+    text-indent: 50px;
+    word-spacing: 20px;
+    font-family: 'Lucida Sans Unicode'
+}
+
+body p:nth-of-type(2) {
+    text-indent: 90px;
+    word-spacing: 5px;
+}
+
+h2 {
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 10px;
+}
+
+body p:nth-of-type(3) {
+    background-color: lightgray;
+    line-height: 2.5;
+    background-size: cover;
+}
+
+body p:nth-of-type(4) {
+    background-color: darkgray;
+    line-height: 2.5;
+    background-size: cover;
+}
