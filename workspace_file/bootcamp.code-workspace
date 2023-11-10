@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../../magda_code"
+		},
+		{
+			"path": "../../workspace"
 		}
 	]
 }
