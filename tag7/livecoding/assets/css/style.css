@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-background-color: red;
+    --secondary-background-color: rgb(111, 0, 255);
+    --font-background-color: rgb(0, 255, 30);
+}
+
+html {
+    font-size: 10px;
+}
+
+/* absolute units: pixel, cm, mm, inch, pt */
+h1 {
+    font-size: 60px;
+    /* font size immer mit pixel oder prozent */
+}
+
+/* relative units sind: rem, em, %, vw, vh */
+
+/* em bezieht sich immer auf den parent container */
+
+section {
+    font-size: 20px;
+    background-color: var(--secondary-background-color);
+}
+
+section p:nth-child(2) {
+    font-size: 2em;
+}
+
+section p:nth-child(3) {
+    font-size: 3em;
+}
+
+/* rem bezieht sich immer auf root bzw "html" */
+
+section p:nth-child(4) {
+    font-size: 5rem;
+}
+
+article p:nth-child(1) {
+    font-size: 1rem;
+}
+
+/* vh = viewHeight port -> bezieht sich auf die Browser höhe */
+
+/*  vw = viewWidth bezieht sich immer auf die browser weite */
+
+div:nth-of-type(1) {
+    background-color: var(--primary-background-color);
+    height: 100vh;
+    width: 100vw;
+}
