@@ -12,5 +12,8 @@
 		{
 			"path": "../../workspace"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "workspace"
+	}
 }
