@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Agbalumo";
+    src: url(../fonts/Agbalumo/Agbalumo-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/milad-fakurian-PRYpUx018P4-unsplash.jpg) center/cover no-repeat;
+}
+
+main {
+    padding: 5%;
+    text-align: center;
+}
+
+article {
+    background-color: aquamarine;
+    color: darkslategray;
+    width: fit-content;
+    border-radius: 5rem;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3%;
+    margin: 0px 100px 0px 100px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
