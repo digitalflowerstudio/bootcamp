@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Agbalumo";
+    src: url(../fonts/Agbalumo/Agbalumo-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/wolfgang-hasselmann-OTG65m1Vr3c-unsplash.jpg) center/cover no-repeat;
+    position: relative;
+}
+
+main article {
+    text-align: center;
+    width: fit-content;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+body main article button {
+    margin-top: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 0.5em;
+    color: beige;
+
+}
