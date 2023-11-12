@@ -2,89 +2,126 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 
-body div:nth-of-type(1) {
-    background: url(../img/bike.png) center/cover no-repeat;
-    height: 100vh;
-    position: relative;
-}
-
-div p:nth-of-type(1) {
-    position: absolute;
-    top: 50vh;
-    left: 3rem;
-    right: 80%;
-    text-align: center;
-}
-
-div p:nth-of-type(2) {
-    position: absolute;
-    top: 60vh;
-    left: 3rem;
-    right: 80%;
-    white-space: nowrap;
-    text-align: center;
-}
-
-header {
-    position: sticky;
-    background-color: rgba(255, 0, 0, 0.5);
-    padding-top: 5px;
-    top: 0
-}
-
-header nav {
-    position: sticky;
-    bottom: 0vh;
+body {
     width: 100vw;
-    text-align: right;
-    padding-bottom: 5px;
+    height: 100vh;
 }
 
-header nav ul li {
+.header-text {
+    background: url(../img/bike.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-bottom: -40px;
+}
+
+.header-text h2 {
+    font-size: 3em;
+    position: relative;
+    left: 5%;
+    top: 40%;
+}
+
+.header-text p {
+    font-size: 1.5em;
+    position: relative;
+    left: 5%;
+    top: 50%;
+}
+
+.header-menu {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-menu li {
+    list-style: none;
     display: inline-block;
+    text-align: center;
+    padding-top: 5px;
 }
 
-header nav ul li a {
+.header-menu a {
     text-decoration: none;
     color: white;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-img {
-    margin: 2%;
-}
-
-h2 {
-    text-align: center;
+.logo {
+    position: relative;
+    padding-left: 25px;
     margin-top: 5px;
 }
 
-.line {
+.header-menu-items {
+    position: relative;
+    left: 60%;
+    padding: 0px 25px;
+    margin-bottom: 5px;
+    right: 0;
+    display: inline-block;
+}
+
+.content {
+    position: relative;
     text-align: center;
-    text-decoration: solid;
-    padding-bottom: 5px;
-    font-weight: bold;
+    padding: 15px;
+    margin: 0 auto;
+    width: 100vw;
 }
 
-.tourdates {
-    margin-left: 10%;
+.content h2 {
+    text-align: center;
 }
 
-p {
-    padding-bottom: 4px;
+.content li {
+    padding: 15px 30px;
 }
 
-h3 {
-    padding: 12px 20%;
+.locations {
+    display: inline-block;
+    position: relative;
 }
 
-.locactions {
-    height: 100vh;
+.locations:hover {
+    transform: scale(1.1);
+}
+
+.divider {
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+}
+
+div span {
+    color: red;
+}
+
+.available {
+    color: green;
+}
+
+.tour-dates {
+    position: relative;
+    margin: 0 auto;
+}
+
+.tour-dates h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tour-dates p {
+    left: 100px;
+    position: relative;
+    padding: 10px 0px;
 }
