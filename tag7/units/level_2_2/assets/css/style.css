@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background: url(../img/neom-rG6Cs33BiVE-unsplash.jpg) center/cover no-repeat;
+}
+
+h1 {
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    font-size: 25px;
+    background-color: bisque;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 2em;
+    border-radius: 20px;
+}
