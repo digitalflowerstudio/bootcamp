@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway";
+    background-color: aquamarine;
+}
+
+header nav {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 76px;
+    align-items: center;
+
+}
+
+header nav h1 {
+    margin-left: 60px;
+    margin-right: 40px;
+    color: #666;
+}
+
+header nav h1:hover {
+    color: #333;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.4em;
+    color: #333;
+    gap: 20px;
+    margin-right: 20px;
+    font-size: 1.1em;
+    margin-right: 100px;
+    flex-wrap: nowrap;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #337ab7;
+}
+
+.hero {
+    color: rgb(0, 0, 0);
+    height: 1000px;
+    background-color: aquamarine;
+    margin-top: 100px;
+}
+
+.hero h1 {
+    font-size: 1.2em;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.images img {
+    width: 250px;
+    height: 250px;
+}
+
+.shop {
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.shop li {
+    list-style: none;
+}
+
+.shop li a {
+    text-decoration: none;
+}
+
+.main {
+    height: 1000px;
+}
