@@ -46,8 +46,6 @@ header nav ul {
     flex-wrap: nowrap;
 }
 
-header nav ul li {}
-
 header nav ul li a {
     text-decoration: none;
 }
