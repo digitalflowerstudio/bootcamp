@@ -12,7 +12,7 @@
 body {
     height: 100vh;
     font-family: "Raleway";
-    back
+    background: url(../img/neom-xDQKvPjxtxo-unsplash.jpg) center/cover no-repeat;
 }
 
 header nav {
@@ -52,4 +52,56 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #337ab7;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 800px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.hero p {
+    font-size: 0.8em;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons .download {
+    border: 1px solid white;
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.buttons .readmore {
+    text-decoration: none;
+    color: white;
+    background-color: plum;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about {
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
