@@ -66,6 +66,7 @@ header nav ul li a:hover {
 .hero h1 {
     font-size: 3em;
     font-weight: 200;
+    text-align: center;
 }
 
 .hero p {
