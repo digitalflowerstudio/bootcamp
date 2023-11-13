@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+* body {
+    height: 100vh;
+    ;
+}
+
 /* Display Flex immer auf den Eltern Container anwenden! */
 
 .flex__selection {
@@ -32,20 +37,54 @@
 
 .flex__selection div:nth-of-type(1) {
     background-color: bisque;
-    order: 2;
+    /* Mit Align-Self können wir die Flex-Items für bestimmte Elemente ändern! */
+    align-self: flex-start;
+    /* order: 2; */
 }
 
 .flex__selection div:nth-of-type(2) {
     background-color: rgb(149, 92, 21);
-    order: 1;
+    /* order: 1; */
 }
 
 .flex__selection div:nth-of-type(3) {
     background-color: rgb(244, 139, 11);
-    order: 3;
+    /* order: 3; */
 }
 
 .flex__selection div:nth-of-type(4) {
     background-color: rgb(255, 196, 213);
-    order: 4;
+    align-self: flex-end;
+    /* order: 4; */
+}
+
+/* main {
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+main div {
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 1;
+}
+
+main div:nth-of-type(2) {
+    flex-shrink: 10;
+}
+
+main div:nth-of-type(1) {
+    flex-basis: 400px;
+} */
+
+main ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* GAP ist wie margin in einem normalen display ohne flex */
+}
+
+main ul li {
+    border: 1px solid red;
 }
