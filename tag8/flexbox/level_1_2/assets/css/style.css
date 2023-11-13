@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/eugene-chystiakov-Gl86fp9K52g-unsplash.jpg) center/cover no-repeat;
+}
+
+header nav {
+    display: flex;
+    /* border: 1px solid red; */
+    color: white;
+    background-color: rgba(55, 31, 31, 0.617);
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+
+header nav ul {
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    font-size: 1.4em;
+    color: white;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
