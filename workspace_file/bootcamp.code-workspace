@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../../workspace"
+		},
+		{
+			"path": "../../projekt_01"
 		}
 	],
 	"settings": {
