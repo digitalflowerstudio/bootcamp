@@ -14,10 +14,13 @@
 		},
 		{
 			"path": "../../project_01"
+		},
+		{
+			"path": "../../project_02"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "project_01",
+		"liveServer.settings.multiRootWorkspaceName": "project_02",
 		"git.ignoreLimitWarning": true
 	}
 }
