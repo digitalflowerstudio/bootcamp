@@ -7,6 +7,81 @@
         <title>level 2_3</title>
     </head>
     <body>
-    
+        <form>
+            <fieldset>
+                <legend>Authentication</legend>
+                <section class="name">
+                    <label for="name">Name</label>
+                    <input type="text" name="first-name" id="name" required placeholder="name">
+                </section>
+                <section class="surname">
+                    <label for="name">Surname</label>
+                    <input type="text" name="last-name" id="name" required placeholder="surname">
+                </section>
+                <section class="mail_and_password">
+                    <div>
+                        <label for="mail">Email</label>
+                        <input type="email" name="email" id="" required placeholder="email">
+                    </div>
+                </section>
+                <section class="gender">
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" checked>
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female">
+                    </div>
+                </section>
+                <section class="picture">
+                    <label for="file">Picture</label>
+                    <input type="file" name="picture" id="file">
+                </section>
+                <section class="country">
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="">Select country</option>
+                        <option value="DEU">Germany</option>
+                        <option value="LK">Sri Lanka</option>
+                        <option value="MG">Madagaskar</option>
+                        <option value="MX">Mexiko</option>
+                        <option value="BR">Brasilien</option>
+                    </select>
+                </section>
+                <section class="langugages">
+                    <label for="langugages">Preferred languages</label>
+                    <select name="" id="" multiple>
+                            <option value="lang">HTML</option>
+                            <option value="lang">CSS</option>
+                            <option value="lang">JS</option>
+                            <option value="lang">React</option>
+                    </select>
+                </section>
+                <section class="activity">
+                    <label for="activity">Field of activity</label>
+                    <div>
+                        <input type="checkbox" name="activity" id="checkboxIt">
+                        <label for="checkboxIt">IT</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="activity" id="checkboxDesign">
+                        <label for="checkboxDesign">Design</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="activity" id="checkboxOther">
+                        <label for="checkboxOther">Other</label>
+                    </div>
+                </section>
+                <section class="buttons">
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                    <div>
+                        <input type="reset" value="Cancel">
+                    </div>
+                </section>
+            </fieldset>
+        </form>
     </body>
     </html>

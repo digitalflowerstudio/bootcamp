@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-one: #48b1dd;
+    --color-hover: #2e83bc;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-size: 1.5rem;
+    font-family:'Gill Sans';
+}
+
+form {
+    background-color: white;
+    width: 50vw;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+section {
+    margin: 0 2vh 2vh 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nameAddressField, .mailPhoneField, .passwordField {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}
+
+input, textarea {
+    border: 0 solid rgb(176, 170, 170);
+    border-radius: 2rem;
+}
+
+input, select, textarea {
+    padding: 0.5vh 0.5vw;
+} 
+
+.contact-header {
+    background-color: var(--color-one);
+    height: 6vh;
+    width: 50vw;
+    padding: 3.5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.contact-header h1 {
+    font-size: 2rem;
+}
+
+.contact-header p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.name {
+    margin-top: 2vh;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: var(--color-one);
+    border: none;
+    height: 4vh;
+    color: white;
+    border-radius: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-hover);
+}
+
+.name_address {
+    margin-top: 2vh;
+}
+
+.nameAddressLabel, .mailPhoneLabel, .passwordLabel {
+    color: var(--color-one);
+    font-weight: 500;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgb(208, 199, 199);
+}
+
+.devilLabel {
+    font-size: 0.7rem;
+    color: rgb(208, 199, 199);
+}
+
+input[type=checkbox] {
+    width: 1vw;
+    height: 1vh;
+}

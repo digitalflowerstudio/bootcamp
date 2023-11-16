@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-one: #43D1AF;
+    --color-hover: #2EBC99;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-size: 1.5rem;
+}
+
+form {
+    background-color: rgb(237, 237, 237);
+    width: 25vw;
+}
+
+section {
+    margin: 0 2vh 2vh 2vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: 1px solid rgb(176, 170, 170);
+}
+
+input, select, textarea {
+    padding: 0.5vh 0.5vw;
+} 
+
+.contact-header {
+    background-color: var(--color-one);
+    height: 6vh;
+    width: 25vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin-top: 2vh;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: var(--color-one);
+    border: none;
+    height: 4vh;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--color-hover);
+}
