@@ -12,6 +12,7 @@ form {
 
 fieldset {
     border: none;
+    flex-grow: 0.3;
 }
 
 .name, .email, .theme, .textmessage, .submitButton {
@@ -20,10 +21,6 @@ fieldset {
 }
 
 textarea {
-    height: 8vh;
-    min-height: 8vh;
-    max-height: 60vh;
-    min-width: 40vw;
     padding-left: .5rem;
     padding-top: .5rem;
     margin-bottom: .7rem;
@@ -52,6 +49,17 @@ input[type="submit"] {
 #selectStyle, #mailStyle, #nameStyleOne, #nameStyleTwo {
     height: 2rem;
 }
+
+.namefields {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .5rem;
+}
+
+#nameStyleOne, #nameStyleTwo {
+    width: 50%;
+}
+
 
 #selectStyle {
     padding-left: .5rem;
