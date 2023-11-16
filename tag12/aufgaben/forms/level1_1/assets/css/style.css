@@ -29,6 +29,7 @@ textarea {
 .messageField, .themeField, .nameField, .mailField {
     font-weight: 800;
     margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 .messageField::after, .mailField:after, .nameField:after {
