@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms-Level-1_1</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <section class="form">
         <form>
             <fieldset>
 
                 <section class="name">
-                    <label for="name">Name *</label>
+                    <label class="nameField" for="name">Name</label>
                     <div class="namefields">
-                        <input type="text" placeholder="First name">
-                        <input type="text" placeholder="Last name">
+                        <input type="text" id="nameStyleOne" required placeholder="First name">
+                        <input type="text" id="nameStyleTwo" required placeholder="Last name">
                     </div class="namefields">
                 </section>
 
                 <section class="email">
-                    <label for="mail">Email *</label>
-                    <input type="mail">
+                    <label class="mailField" for="mail">Email</label>
+                    <input type="mail" id="mailStyle" required placeholder="johndoe@gmail.com">
                 </section>
 
                 <section class="theme">
-                    <label for="theme">Thema</label>
-                    <select name="" id="">
+                    <label class="themeField" for="theme">Subject</label>
+                    <select name="" id="selectStyle">
                         <option value="general">General</option>
                         <option value="advertise">Advertise</option>
                         <option value="partnership">Partnership</option>
@@ -35,15 +37,18 @@
                 </section>
 
                 <section class="textmessage">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="We would love to hear your thoughts."></textarea>
+                    <label class="messageField" for="messages">Message</label>
+                    <textarea name="" id="textareaStyle" cols="30" rows="10" required
+                        placeholder="We would love to hear your thoughts."></textarea>
                 </section>
 
                 <section class="submitButton">
                     <input type="submit" value="Submit">
                 </section>
             </fieldset>
-            
+
         </form>
     </section>
 </body>
+
 </html>

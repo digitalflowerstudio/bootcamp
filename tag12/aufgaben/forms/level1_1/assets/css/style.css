@@ -18,3 +18,49 @@ fieldset {
     display: flex;
     flex-direction: column;
 }
+
+textarea {
+    height: 8vh;
+    min-height: 8vh;
+    max-height: 60vh;
+    min-width: 40vw;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    margin-bottom: .7rem;
+}
+
+.messageField, .themeField, .nameField, .mailField {
+    font-weight: 800;
+    margin-bottom: .5rem;
+}
+
+.messageField::after, .mailField:after, .nameField:after {
+    content: " *";
+    color: red;
+}
+
+input[type="submit"] {
+    background-color: rgb(15, 92, 143);
+    padding: 0.4rem;
+    color: white;
+}
+
+.textmessage, .theme, .email {
+    margin-top: 1vh;
+}
+
+#selectStyle, #mailStyle, #nameStyleOne, #nameStyleTwo {
+    height: 2rem;
+}
+
+#selectStyle {
+    padding-left: .5rem;
+}
+
+::placeholder {
+    padding-left: .5rem;
+}
+
+#textareaStyle::placeholder {
+    padding-left: 0rem;
+}
