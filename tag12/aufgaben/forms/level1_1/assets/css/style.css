@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+fieldset {
+    border: none;
+}
+
+.name, .email, .theme, .textmessage, .submitButton {
+    display: flex;
+    flex-direction: column;
+}
