@@ -41,6 +41,12 @@ input[type="submit"] {
     background-color: rgb(15, 92, 143);
     padding: 0.4rem;
     color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    animation-delay: 0.1s;
 }
 
 .textmessage, .theme, .email {
