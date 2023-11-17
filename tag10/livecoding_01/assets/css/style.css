@@ -68,82 +68,63 @@ a {
     padding: 10px 10px;
     font-size: 1.5rem;
 }
+  
 
-/* HERO SECTION */
+/* ----------- HERO SECTION ----------- */
 
-.hero__section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  background-color: wheat;
+.hero__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:  rgb(20, 25, 65);
 }
-
-.image {
-  width: 50%;
-  height: auto;
-}
-
-.mobile__image {
-    width: 50%;
-    height: auto;
-  }
 
 .hero__section div {
-  width: 50vw;
-  padding: 30px;
-  color: rgb(84, 84, 38);
+    width: 50vw;
+    padding: 30px;
+    color: rgb(141, 151, 155);
 }
 
-/* Media Queries */
+.hero__section img {
+    width: 100%
+}
+
+.mobile__image{
+    display: none;
+}
+  
+
+/* ! Media Queries */
 /* ? Handy ab 576px */
-/* ? Tabet ab 768px */
+/* ? Tablet ab 768px */
 /* ? Desktop ab 992px */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 5rem;
+        color: deeppink;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    .hero__section{
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+    .hero__section div{
+        width: auto; 
+    }
+    .hero__section .image{
+        display: none;
+    }
+    .hero__section .mobile__image{
+        display: block;
+        max-width: 100%;
+    }
+    
 
-  h1 {
-    font-size: 5rem;
-    color: red;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  .hero__section {
-    flex-direction: column;
-    padding: 30px 40px;
-  }
-
-
-
-  .hero__section div {
-    width: auto;
-  }
-
-  .mobile__image {
-    display: none;
-  }
-
-  .hero__section .image {
-    display: none;
-  }
-
-
-
-  .hero__section .mobile__image {
-    max-width: 100%;
-    display: block;
-  }
-
- 
 }
-  
-
-
-  
-  
   
   
   
