@@ -38,7 +38,8 @@ aside {
 
 .news {
     display: grid;
-    grid-template-columns: 200px 200px 400px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: auto;
     gap: 1rem;
     padding: 1rem;
 }
