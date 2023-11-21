@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 80px);
+    grid-template-areas: 
+    "redone redone redone redone"
+    "blueTwo blueTwo greenthree greenthree"
+    "blueTwo blueTwo magentafour magentafive";
+    gap: 10px;
+}
+
+.container1 {
+    background-color: red;
+    grid-area: redone;
+}
+
+.container2 {
+    background-color: blue;
+    grid-area: blueTwo;
+}
+
+.container3 {
+    background-color: green;
+    grid-area: greenthree;
+}
+
+.container4 {
+    background-color: darkmagenta;
+    grid-area: magentafour;
+}
+
+.container5 {
+    background-color: darkmagenta;
+    grid-area: magentafive;
+}
