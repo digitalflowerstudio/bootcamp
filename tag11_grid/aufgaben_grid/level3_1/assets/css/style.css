@@ -10,7 +10,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 80;
     font-family: "Raleway";
     background: url(../img/neom-xDQKvPjxtxo-unsplash.jpg) center/cover no-repeat;
 }
@@ -99,10 +99,37 @@ header nav ul li a:hover {
     padding: 10px;
 }
 
-.about {
-    height: 500px;
+.seo, .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    place-items: center center;
     background-color: white;
+}
+
+.seo-text, .portfolio-text {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: "Raleway";
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 300px;
+}
+
+.seo-text h2, .portfolio-text h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.seo-text p, .portfolio-text p {
+    font-size: 1rem;
+}
+
+.readmore_seo, .readmore_portfolio {
+    background-color: plum;
+    width: fit-content;
+    padding: 1rem 2rem;
+    color: white;
+    text-decoration: none;
 }
