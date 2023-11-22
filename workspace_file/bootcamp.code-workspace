@@ -26,7 +26,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "bootcamp",
+		"liveServer.settings.multiRootWorkspaceName": "project_04_designshop",
 		"git.ignoreLimitWarning": true
 	}
 }
