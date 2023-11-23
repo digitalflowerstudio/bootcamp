@@ -23,10 +23,13 @@
 		},
 		{
 			"path": "../../project_04_designshop"
+		},
+		{
+			"path": "../../project_05_roma"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "bootcamp",
+		"liveServer.settings.multiRootWorkspaceName": "project_05_roma",
 		"git.ignoreLimitWarning": true
 	}
 }
