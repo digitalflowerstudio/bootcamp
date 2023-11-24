@@ -26,10 +26,13 @@
 		},
 		{
 			"path": "../../project_05_roma"
+		},
+		{
+			"path": "../../project_06_hotel_bon"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "project_05_roma",
+		"liveServer.settings.multiRootWorkspaceName": "project_06_hotel_bon",
 		"git.ignoreLimitWarning": true
 	}
 }
