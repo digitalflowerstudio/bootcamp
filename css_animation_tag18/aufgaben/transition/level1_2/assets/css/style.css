@@ -1,0 +1,30 @@
+.grey__box {
+    height:100px;
+    width: 100%;
+    background-color: grey;
+    position: relative;
+}
+
+.red__box {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    transition: left 1s ease-in;
+}
+
+.green__box {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    transition: left 1s ease-out;
+}
+
+.grey__box:hover {
+   .green__box {left:92.5%}
+   .red__box {left:92.5%}
+}
