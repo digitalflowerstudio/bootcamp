@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    gap: 1rem;
+    width: 400px;
+    flex-wrap: wrap;
+    padding: 1rem;
+    text-align: center;
+    font-size: auto;
+    color: whitesmoke;
+}
+
+main > * {
+    background-color: rgb(203, 152, 23);
+    border-radius: 1rem;
+    width: clamp(4rem, 6rem, 8rem);
+    height: clamp(4rem, 6rem, 8rem);
+    line-height: clamp(4rem, 6rem, 8rem);
+}
+
+.box__01:hover {
+    transform: translate(-10px, -10px);
+    transition: 0.5s ease-in-out;
+}
+
+.box__02:hover {
+    transform: translateX(10px);
+    transition: 0.5s ease-in-out;
+}
+
+.box__03:hover {
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+
+.box__04:hover {
+    transform: rotate(45deg);
+    transition: 0.5s ease-in-out;
+}
+
+.box__05:hover {
+    transform: scale(0.7);
+    transition: 0.5s ease-in-out;
+}
+
+.box__06:hover {
+    transform: skew(15deg, 15deg);
+    transition: 0.5s ease-in-out;
+}
