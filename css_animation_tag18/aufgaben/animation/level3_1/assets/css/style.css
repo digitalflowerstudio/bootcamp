@@ -1,57 +1,68 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-main {
+section {
+    background-color: black;
+    margin: 50px;
     height: 500px;
     width: 500px;
     position: relative;
+
 }
 
-.circle__01 {
+div{
     background-color: red;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
+    height: 64px;
+    width: 64px;
+    border-radius: 64px;
     position: absolute;
-    animation: move 5s 5s ease infinite;
+    top:58px;
+    left: 58px;
 }
 
-.circle__02 {
-    background-color: blue;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    position: absolute;
-    animation: move 5s 6s ease infinite;
+div:nth-child(1){
+    animation: spheres 4s linear infinite forwards;
+    box-shadow: -8px 8px 32px -8px red;
 }
 
-.circle__03 {
-    background-color: green;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    position: absolute;
-    animation: move 5s 7s ease infinite;
+div:nth-child(2){
+    animation: spheres 4s linear 1s infinite forwards;
+    box-shadow: 8px -8px 32px 8px blue;
 }
 
-.circle__04 {
-    background-color: orange;
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    position: absolute;
-    animation: move 5s 8s ease infinite;
+div:nth-child(3){
+    animation: spheres 4s linear 2s infinite forwards;
+    box-shadow: 8px -8px 32px -8px red;
 }
 
-@keyframes move {
+div:nth-child(4){
+    animation: spheres 4s linear 3s infinite forwards;
+    box-shadow: -8px 8px 32px 8px blue;
+}
 
-    0% {left: 0px; top:0px}
-    25% {left: 100px; top: 0px;}
-    50% {left: 100px; top: 100px;}
-    75% {left: 0px; top: 100px;}
-    100% {left: 0px; top: 0px;}
+@keyframes spheres {
+    0% {
+        background-color: red;
+        transform: translate(0);
+    }
+    25%{
+        background-color: yellow;
+        transform: translateX(320px);
+    }
+    50%{
+        background-color: green;
+        transform: translate(320px,320px);
+    }
+    75%{
+        background-color: blue;
+        transform: translate(0, 320px);
 
+    }
+    100%{
+        transform: translate(0);
+        background-color: red;
+    }
 }
