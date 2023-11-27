@@ -1,0 +1,15 @@
+main {
+    padding: 20%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.square:hover {
+    transform: translateY(100px) rotate(90deg) scale(1.3);
+    transition: 1s ease-in-out;
+}
