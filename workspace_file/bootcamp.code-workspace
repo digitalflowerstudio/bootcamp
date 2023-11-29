@@ -32,10 +32,13 @@
 		},
 		{
 			"path": "../../project_07_designer_challenge"
+		},
+		{
+			"path": "../../git_cheatSheet"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "bootcamp",
+		"liveServer.settings.multiRootWorkspaceName": "git_cheatSheet",
 		"git.ignoreLimitWarning": true
 	}
 }
