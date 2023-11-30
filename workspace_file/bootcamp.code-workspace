@@ -35,10 +35,14 @@
 		},
 		{
 			"path": "../../git_cheatSheet"
+		},
+		{
+			"name": "projekt_basic",
+			"path": "../../projekt_basic"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "git_cheatSheet",
+		"liveServer.settings.multiRootWorkspaceName": "project_basic",
 		"git.ignoreLimitWarning": true
 	}
 }
