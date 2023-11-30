@@ -42,7 +42,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "project_basic",
+		"liveServer.settings.multiRootWorkspaceName": "projekt_basic",
 		"git.ignoreLimitWarning": true
 	}
 }
