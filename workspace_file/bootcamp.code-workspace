@@ -39,6 +39,9 @@
 		{
 			"name": "projekt_basic",
 			"path": "../../projekt_basic"
+		},
+		{
+			"path": "../../california_calling_proj"
 		}
 	],
 	"settings": {
