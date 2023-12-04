@@ -1,0 +1,13 @@
+@mixin header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin textStyle ($fontSize, $color, $background, $padding) {
+    font-size: $fontSize;
+    color: $color;
+    background: $background;
+    padding: $padding;
+}

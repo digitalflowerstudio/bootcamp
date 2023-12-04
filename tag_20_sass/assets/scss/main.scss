@@ -1,0 +1,44 @@
+@import "mixin";
+@import "font";
+
+header {
+  @include header;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    max-width: 50%;
+    text-align: center;
+  }
+}
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  figure {
+    width: 300px;
+    img {
+      border-radius: 30px;
+    }
+    figcaption {
+      h2 {
+        color: red;
+      }
+      button {
+        border-radius: 20px;
+        @include textStyle(1.2rem, purple, green, 0.5rem 4rem);
+
+        &:hover {
+          color: blue;
+          background-color: grey;
+        }
+      }
+    }
+  }
+}
