@@ -10,9 +10,6 @@
 			"path": "../../magda_code"
 		},
 		{
-			"path": "../../workspace"
-		},
-		{
 			"path": "../../project_01"
 		},
 		{
@@ -42,6 +39,9 @@
 		},
 		{
 			"path": "../../cali_calling"
+		},
+		{
+			"path": "../../workspace"
 		}
 	],
 	"settings": {
