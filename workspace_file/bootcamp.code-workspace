@@ -39,6 +39,9 @@
 		{
 			"name": "projekt_basic",
 			"path": "../../projekt_basic"
+		},
+		{
+			"path": "../../cali_calling"
 		}
 	],
 	"settings": {
