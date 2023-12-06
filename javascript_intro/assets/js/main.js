@@ -31,3 +31,24 @@ console.log({num3});
 
 num1 = 105;
 console.log({num1});
+
+const num4 = 300;
+console.log('num4');
+
+// kein let, da wir die variable schon in zeile 20 vor definiert haben
+num1 = 105
+console.log({num1});
+
+// lässt sich nicht überschreiben da num4 eine constante ist
+// num4 = 400;
+// console.log({num4});
+
+const addScore = num1 + num2;
+console.log({addScore});
+
+console.log('TEST ', num1 + num2);
+
+
+
+
+
