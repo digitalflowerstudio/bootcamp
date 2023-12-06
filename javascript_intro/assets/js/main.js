@@ -48,7 +48,27 @@ console.log({addScore});
 
 console.log('TEST ', num1 + num2);
 
+// DatenTypen
+// ? Numner - String - Boolean
 
+// ? String
+// String sind Textwerte
+// Um ein String auszugeben, müssen wir "" oder ''
 
+console.log("Das ist ein String");
+console.log("Das ist auch ein String");
+// Wird in der Konsole als weißer Text ausgebeben 
+
+// ? Number
+// Numerische Werte und werden LILA ausgegeben
+console.log("NUMBERS");
+console.log(10);
+console.log(10 + 4); // Gibt 14 aus
+
+console.log("10" + "4"); // Führt eine Zeichenketten-Kombination aus (Beim Plus rechnet er nicht zwingend)
+console.log("4" * "2");
+console.log("4" - '4');
+
+console.log(4 + 20);
 
 
