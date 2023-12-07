@@ -206,6 +206,101 @@ const mainHeadline = document.getElementById('main-headline')
 console.log(mainHeadline);
 console.log(mainHeadline.innerHTML);
 
+// - querySelector()
+
+// const secondaryHeadline = document.querySelector('#secondary-headline')
+// console.log(secondaryHeadline); // ID mit raute
+
+//mit class
+
+const secondaryHeadline = document.querySelector('.myHeadline') // class with .
+console.log(secondaryHeadline);
+
+// direkt mit element
+
+const secondaryHeadline3 = document.querySelector('h2')
+
+console.log(secondaryHeadline3);
+console.log(secondaryHeadline3.innerHTML);
+
+// innerHTML
+
+mainHeadline.innerHTML = 'ich bin der neue, hahaha'
+
+secondaryHeadline3.innerHTML = 'moin'
+secondaryHeadline3.innerHTML += ' Leute'
+
+// CSS
+
+mainHeadline.style.backgroundColor = 'red'
+mainHeadline.style.color = 'white'
+
+// Unterschied zwischen document.write() und .innerHTML
+
+let divContainer = document.querySelector('#div-container')
+divContainer.innerHTML = '<p>Ich bin ein P Tag</p>' // schreibt innerhalb des angesprochen elements und ermöglicht es uns ein neues element zu erstellen
+document.write('<p>Ich bin ein P tag</p>') // schreibt immer am ende
+divContainer.innerHTML += '<p>Ich bin noch ein P tag</p>' // += neues element hinzugefügt
+
+
+// ! Funktion
+// eine funktion ist wie rein rezept was man weitergeben kann, sie kriegt immer einen input
+
+function sayHello(){
+    console.log('Hello Leute'); // funktion schreiben
+}
+
+sayHello() // funktion aufrufen
+
+function log(firstName, lastName){
+    console.log(`Hallo du bist eingeloggt ${firstName} ${lastName}`);
+}
+
+log('Max', 'Mustermann')
+
+function addMe (num1, num2) {
+    console.log(num1 * num2);
+}
+
+addMe (3,5)
+
+let num5 = 5;
+let num6 = 10;
+
+//number1 und 2 sind parameter (unsere zutaten)
+function plusMe(number1, number2){
+    divContainer.innerHTML += '<p>' + number1 + number2 + '</p>' // das plus zwischen den numbers kann auch * oder / oder - sein
+}
+
+// plusMe(10, 100)
+plusMe (num5, num6)
+
+// wiederholung
+
+let meinErstesKind = document.querySelector('.mein-erstes-kind');
+meinErstesKind.innerHTML = 'hallo papa';
+
+let meinZweitesKind = document.getElementById('mein-zweites-kind');
+meinZweitesKind.innerHTML = 'hallo papa farid'
+
+meinZweitesKind.innerHTML += ' wie geht es dir?'
+
+let mySection = document.querySelector('section')
+console.log(mySection);
+mySection.innerHTML += "<p>HALLOOO PAPA</p>"
+
+function babyMaker(){
+    mySection.innerHTML += '<p>Ich bin das vierte kind</p>'
+}
+
+babyMaker()
+
+function subTractor(nummerEins, nummerZwei){
+    console.log(nummerEins - nummerZwei);
+}
+
+subTractor(10, 7) // = 3
+
 
 
 
