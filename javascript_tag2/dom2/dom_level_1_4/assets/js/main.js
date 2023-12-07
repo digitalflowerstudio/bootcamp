@@ -9,7 +9,7 @@ function magic() {
 }
 
 function moreMagic() {
-  let datum = (document.getElementById("wurst").innerHTML +=
+  let hahEinsss = (document.getElementById("wurst").innerHTML +=
     "<h1>WURSTSALAT IST EINE H1</h1>" + '<br>');
 }
 
