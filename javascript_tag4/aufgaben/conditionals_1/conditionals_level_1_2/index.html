@@ -1,12 +1,23 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>conditionals_level_1_2</title>
-    </head>
-    <body>
-    
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>conditionals_level_1_2</title>
+</head>
+
+<body>
+    <form style="display: flex; flex-direction: column; gap: 1rem; width: 60%">
+        <label style="font-size: 2rem;" for="WeatherQuality">Weather</label>
+        <input type="range" value="0" id="WeatherQuality" placeholder="Whats the Weather Quality?" max="10"
+            oninput="num.value = this.value">
+        <output id="num">0</output>
+        <input onclick="weather(); return false;" type="submit" id="submitInput">
+    </form>
+    <p class="output"></p>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
