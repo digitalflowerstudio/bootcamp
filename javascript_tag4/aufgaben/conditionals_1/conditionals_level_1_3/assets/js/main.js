@@ -1,4 +1,4 @@
-function greaterThan() {
+function greaterThan(event) {
   event.preventDefault();
 
   let result = "";
