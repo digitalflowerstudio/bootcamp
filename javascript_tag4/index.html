@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <section class="counter">
+        <h2 class="output">0</h2>
+        <div class="flex-container">
+            <div class="flex-div-container">
+                <button onclick="superFunc(+1)">+1</button>
+                <button onclick="superFunc(-1)">-1</button>
+            </div>
+            <div class="flex-div-container">
+                <button onclick="superFunc(+10)">+10</button>
+                <button onclick="superFunc(-10)">-10</button>
+            </div>
+            <button onclick="superFuncZwei()">*2</button>
+            <button onclick="reset()" class="reset">reset</button>
+        </div>
+    </section>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
