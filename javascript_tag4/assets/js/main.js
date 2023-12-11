@@ -45,3 +45,38 @@ function reichSein() {
     entscheidung.textContent = "Nein, du bleibst arm :(";
   }
 }
+
+// Einfache Überprüfung
+
+// function checkAge() {
+//   let age = document.querySelector("#ageInput").value;
+//   let output = document.querySelector("#message");
+
+//   if (age >= 60) {
+//     output.innerHTML = "Du bist stein alt!";
+//   } else if (age < 18 || age > 60) {
+//     output.innerHTML = "Entweder zu jung oder zu alt!";
+//   } else if (age >= 18) {
+//     output.innerHTML = "Du bist Volljährig!";
+//   } else {
+//     output.innerHTML = "Bitte gib dein alter an!"
+//   }
+// }
+
+function checkAge() {
+  let age = document.querySelector("#ageInput").value;
+  let output = document.querySelector("#message");
+  let checked = document.querySelector("#checked").checked;
+
+  if (age >= 30 && age <= 80 && checked) {
+    output.innerHTML = "Du bist ALT und hast zugestimmt!";
+  } else if (age >= 18 && age <= 30 && checked) {
+    output.innerHTML = "Du bist volljährig und hast zugestimmt";
+  } else if (age < 18) {
+    output.innerHTML = "Entweder zu jung oder keine Zustimmung";
+  } else if (!checked) {
+    output.innerHTML = "Keine Zustimmung";
+  } else {
+    output.innerHTML = "Ein anderer Fall";
+  }
+}
