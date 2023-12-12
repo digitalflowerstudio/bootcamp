@@ -1,12 +1,46 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>switch_case_level_2_5</title>
-    </head>
-    <body>
-    
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>switch_case_level_2_5</title>
+    <style>
+        .style {
+            margin: auto;
+            width: 220px;
+            padding: 20px;
+            background-color: #999;
+            font-family: Geneva, Tahoma, sans-serif;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="style">
+        <input id="bundeslandInfo" type="text" placeholder="Schreibe Bundesland">
+        <input type="button" value="Check" onclick="checkLand()">
+        <div id="bundeslandInfoErgebnis">
+            <p class="result"></p>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
