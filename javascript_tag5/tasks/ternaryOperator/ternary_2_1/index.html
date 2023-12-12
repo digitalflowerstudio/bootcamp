@@ -1,12 +1,58 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>ternary_2_1</title>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>ternary_2_1</title>
+    <style>
+        body {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 160px;
+            background-color: rgb(212, 255, 0);
+        }
+
+        .form {
+            margin: 0 auto;
+            width: 640px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            background-color: white;
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        button {
+            width: min-content;
+            margin: 0 auto;
+        }
+
+        #ouput {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" onsubmit="sendMsg(event); return false" class="form">
+        <h1>whats ur msg?</h1>
+        <input type="text" name="message" id="message">
+        <button type="submit">Send it!</button>
+        <div>
+            <p id="error"></p>
+            <h2>last message</h2>
+        </div>
+        <p id="output"></p>
+    </form>
+
+    <script src="./assets/js/main.js"></script>
     </head>
+
     <body>
-    
+
     </body>
-    </html>
+
+</html>
