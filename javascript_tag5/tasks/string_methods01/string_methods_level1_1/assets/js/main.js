@@ -12,5 +12,4 @@ let lenFull = fullName.length;
 console.log(lenFirst);
 console.log(lenLast);
 console.log(lenFull);
-
 console.log(fullName);
