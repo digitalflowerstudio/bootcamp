@@ -48,10 +48,13 @@
     },
     {
       "path": "../../Projekt_Idealgewichtsrechner"
+    },
+    {
+      "path": "../../stringChain"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "bootcamp",
+    "liveServer.settings.multiRootWorkspaceName": "stringChain",
     "git.ignoreLimitWarning": true,
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#2f7c47",
