@@ -45,6 +45,9 @@
     },
     {
       "path": "../../Vorlagen"
+    },
+    {
+      "path": "../../Projekt_Idealgewichtsrechner"
     }
   ],
   "settings": {
