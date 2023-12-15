@@ -51,10 +51,13 @@
     },
     {
       "path": "../../stringChain"
+    },
+    {
+      "path": "../../VAT_calculator"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "stringChain",
+    "liveServer.settings.multiRootWorkspaceName": "VAT_calculator",
     "git.ignoreLimitWarning": true,
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#2f7c47",
