@@ -10,7 +10,8 @@ const words = [
   "Krokodil",
   "Lampe",
 ];
-// sobald ich mehrzeilige funktionen mit { } habe brauche ich return
+// sobald ich mehrzeilige funktionen mit { } habe brauche ich return um die werte zwischenzuspeichern
+
 const result = words.filter((word) => word.length > 6);
 console.log(result);
 
