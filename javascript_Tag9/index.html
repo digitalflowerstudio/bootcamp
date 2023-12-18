@@ -9,6 +9,20 @@
 </head>
 
 <body>
+    <div style="display:flex; flex-direction: column;">
+        <label for="user">User</label>
+        <input type="text" name="user" id="user">
+        <label for="newUser">New User</label>
+        <input type="text" name="newUser" id="newUser">
+        <input type="button" value="Search & Edit" onclick="searchUser()">
+    </div>
+    <ul></ul>
+
+    <div>
+        <label for="spieler"></label>
+        <input type="text" name="spieler" id="spieler">
+        <input type="button" class="button" value="spielerSuchen" id="spieler" onclick="getSpieler()">
+    </div>
     <script src="./assets/js/main.js"></script>
 </body>
 
