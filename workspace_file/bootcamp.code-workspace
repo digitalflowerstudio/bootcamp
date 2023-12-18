@@ -57,7 +57,7 @@
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "VAT_calculator",
+    "liveServer.settings.multiRootWorkspaceName": "bootcamp",
     "git.ignoreLimitWarning": true,
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#2f7c47",
