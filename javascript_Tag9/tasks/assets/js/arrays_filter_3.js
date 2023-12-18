@@ -11,7 +11,7 @@ const heroArr = [
   null,
 ];
 
-const myHeros = heroArr.filter((el) => el !== null && el !== undefined);
+const myHeros = heroArr.filter((hero) => hero !== null && hero !== undefined);
 
 console.log(heroArr);
 console.log(myHeros);
