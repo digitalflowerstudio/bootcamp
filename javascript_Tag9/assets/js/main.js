@@ -111,9 +111,3 @@ const getSpieler = () => {
     console.log("Der Spieler wurde nicht gefunden");
   }
 };
-
-// wiederholung
-
-//push
-
-const fruits =
