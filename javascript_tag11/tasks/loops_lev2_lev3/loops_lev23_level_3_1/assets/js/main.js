@@ -10,7 +10,8 @@ const divider = (input) => {
   }
 
   textPieces.forEach((textPiece, index) => {
-    textPiece + " - " + (index + 1) + " of " + textPieces.length; // hinzufügen der legende für die einzelnen abschnitte mit dynamischer länge
+    textPieces[index] =
+      textPiece + " - " + (index + 1) + " of " + textPieces.length; // hinzufügen der legende für die einzelnen abschnitte mit dynamischer länge
   });
 
   // anzeigen der einzelnen abschnitte als array
