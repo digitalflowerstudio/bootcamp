@@ -36,6 +36,8 @@ let veraenderung = edelMetallPreise.map((el) => {
 
 console.log(veraenderung);
 
+// Preise filtern
+
 let bigEnough = (value) => {
   return value >= 50;
 };
