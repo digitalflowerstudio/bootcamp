@@ -1,0 +1,11 @@
+body {
+  height: 5000px;
+  width: 10000px;
+}
+
+#train {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: aqua;
+}
